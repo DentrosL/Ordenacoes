@@ -13,10 +13,10 @@ def menu():
     print("5. Merge Sort")
     print("6. Sair")
 
-# o bubble sort é um ordenador simples que percorre a lista várias vezes, comparando elementos adjacentes e trocando-os se estiverem na ordem errada. O processo é repetido até que a lista esteja ordenada.
+# CONCEITO:o bubble sort é um ordenador simples que percorre a lista várias vezes, comparando elementos adjacentes e trocando-os se estiverem na ordem errada. O processo é repetido até que a lista esteja ordenada.
 # FUNCIONAMENTO: pega o array, percorre ele no for externo, e no for interno ele compara os elementos adjacentes, se o elemento da esquerda for maior que o da direita, ele troca eles de posição. O processo é repetido até que a lista esteja ordenada.
 
-# exemplo do bubble sort com [64, 34, 25]:
+# EXEMPLO do bubble sort com [64, 34, 25]:
 # compara 64 e 34 -> troca: [34, 64, 25]
 # compara 64 e 25 -> troca: [34, 25, 64]
 # ao final da primeira passagem, o maior valor vai para o final. e repete o processo para os elementos restantes.
@@ -78,7 +78,7 @@ def selection_sort(arr):
         arr[i], arr[min_idx] = arr[min_idx], arr[i]
     return arr  
 
-# o merge sort é um ordenador eficiente que utiliza a técnica de divisão e conquista. ele divide a lista em duas metades, ordena cada metade recursivamente e, em seguida, mescla as duas metades ordenadas em uma única lista ordenada.
+# CONCEITO: o merge sort é um ordenador eficiente que utiliza a técnica de divisão e conquista. ele divide a lista em duas metades, ordena cada metade recursivamente e, em seguida, mescla as duas metades ordenadas em uma única lista ordenada.
 # FUNCIONAMENTO: pega o array, divide a lista em duas metades, ordena cada metade recursivamente e, em seguida, mescla as duas metades ordenadas em uma única lista ordenada.
 
 # EXEMPLO do merge sort com [64, 34, 25]:
